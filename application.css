@@ -387,7 +387,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     right:6px !important;
 }
 .flex-direction-nav a {
-    background: url(http://kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/f1f22bba054942c67e50114dd58c8b15/featured-arrows.png) no-repeat 0 0;
+    background: url(//kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/f1f22bba054942c67e50114dd58c8b15/featured-arrows.png) no-repeat 0 0;
     display:block;
     opacity:1 !important;
 }
