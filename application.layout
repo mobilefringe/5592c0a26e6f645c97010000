@@ -90,7 +90,7 @@
                 imagePath: '//cdn.jsdelivr.net/jquery.jreject/1.0.2/images/'
             });      
         });
-        setEndPoint('//twinpines.mallmaverick.com/api/v4/twinpines/all.json');
+        setEndPoint('//hylandcentre.mallmaverick.com/api/v4/hyland/all.json');
     </script>
     <style>
         /*custom styles*/
