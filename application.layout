@@ -409,7 +409,6 @@
 <script type="text/javascript" src="//kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/360754705c291ba7cd4a4a18102adbaf/collapser.js"></script>
 <script>
     function show_results(id){
-        
         if ( $("#"+id+"_results").is(":visible")){
             $("#"+id+"_results").slideUp();
             $("#"+id+"_arrow").removeClass("fa-chevron-down", 1000);
@@ -422,8 +421,8 @@
             $("#"+id+"_arrow").removeClass("fa-chevron-right", 1000);
             $("#"+id+"_arrow").addClass("fa-chevron-down", 1000);
         }
-        
     }
+    
     if(navigator.appVersion.indexOf("MSIE 9.") == -1){
         
     } else {
@@ -459,14 +458,14 @@
     }
 
     $(document).ready(function() {
-        
         function renderPageData (){
             var propertyDetails = getPropertyDetails();
             renderPropertyLogo('#logo_template','#site_logo',propertyDetails);
             renderPropertyFooter('#footer_template','#footer_container',propertyDetails);
-            renderTodaysHours('#todays_hours_search_template','#todays-hours-search');
-            
+            var hours = getTodaysHours();
+            renderHomeHours('#todays-hours-search','#todays_hours_search_template', hours);
         }
+        
         function renderPropertyLogo(logo_template,site_logo,propertyDetails){
             var item_list = [];
             var item_rendered = [];
@@ -496,6 +495,26 @@
             $(footer_container).html(item_rendered.join(''));
         }
         
+        function renderHomeHours(container, template, collection){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(template).html();
+            Mustache.parse(template_html);   // optional, speeds up future uses
+            item_list.push(collection);    
+            $.each( item_list , function( key, val ) {
+                if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
+                    var open_time = moment(val.open_time).tz(getPropertyTimeZone());
+                    var close_time = moment(val.close_time).tz(getPropertyTimeZone());
+                    val. hours = open_time.format("h:mm A") + " - " + close_time.format("h:mm A")
+                } else {
+                    val.hours = "Closed Today";
+                }
+                var rendered = Mustache.render(template_html,val);
+                item_rendered.push(rendered);
+            });
+            $(container).html(item_rendered.join(''));
+        }
+        
         // function getImageURL(existing_url){
         //     if(!existing_url ||  existing_url.indexOf('missing.png') > -1 || existing_url.length === 0){
         //         ////css-tricks.com/snippets/html/base64-encode-of-1x1px-transparent-gif/
@@ -522,7 +541,7 @@
             $('#search_results').show();
             if($('#search_input').val().length == 0){
                 $('#search_results').hide();
-            }else{
+            } else {
                 var search_results = getSearchResults($('#search_input').val(),10,100);
                 $('.search-results-count').html("Total Results : "+search_results.summary.count);
                 renderSearchResultsTemplate('#search_results_template','#search_results_items',search_results);
@@ -549,7 +568,6 @@
                         $("#events_results_header").html(search_results["events"].length+" Events <i id='event_arrow' class='fa fa-chevron-right pull-right'></i>")    
                         $("#events_results_header").show();
                     }
-                    
                 } else {
                     $("#events_results_header").hide();
                 }
