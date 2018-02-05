@@ -93,6 +93,13 @@
         setEndPoint('//hylandcentre.mallmaverick.com/api/v4/hyland/all.json');
     </script>
     <style>
+    .property_logo{
+    position:absolute;
+    right:50px;
+    top:0;
+    height:48px;
+    margin-top:8px;
+}
         /*custom styles*/
         a .directory_content:hover{
             color: #999 !important;
