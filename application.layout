@@ -93,7 +93,7 @@
         setEndPoint('//hylandcentre.mallmaverick.com/api/v4/hyland/all.json');
     </script>
     <style>
-        .main_logo_svg {
+        .bk_logo_svg {
             margin-top: 12px;
             display: inline-block;
             width: 110px;
