@@ -94,12 +94,14 @@
     </script>
     <style>
         .bk_logo_svg {
-            margin-top: 12px;
+            position: absolute;
+            top: 0;
+            right: 0;
             display: inline-block;
-            width: 110px;
-            height: 90px;
+            width: 150px;
+            height: 60px;
             background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/036/590/original/BK_Logo_ProudlyManagedBy_White_final-01.svg?1517934408);
-            background-size: 110px 90px;
+            background-size: 100px 70px;
             background-repeat: no-repeat;
         }
         .property_logo{
