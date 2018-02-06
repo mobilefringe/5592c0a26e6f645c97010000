@@ -210,6 +210,9 @@
                 border:15px solid #eaf1fb !important;
                 border-top:none !important;
             }  
+            .bk_logo_svg {
+                display: none;
+            }
         }
     </style>
 </head>
