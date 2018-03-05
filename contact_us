@@ -20,16 +20,16 @@
                         <p class="directory_content">{{address1}}</p>
                         <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                         <br>
-                    <p class="directory_content"><strong>Celeste Nickle</strong> 
+                    <p class="directory_content"><strong>Jeff Wilson</strong> 
                     <br>General Manager
-                    <br>(519) 641-0976 ext. 222
-                    <br><a href="mailto:CNickle@Bentallkennedy.com">CNickle@Bentallkennedy.com</a></p>
+                    <br>(519) 681-0434 ext. 1805
+                    <br><a href="mailto:jwilson@bentallkennedy.com">jwilson@bentallkennedy.com</a></p>
                     <br>
-                    <p class="directory_content"><strong>Garnet Peirson</strong> 
-                    <br>Director, Leasing*
-                    <br>1.866.681.2715
-                    <br><a href="mailto:gpeirson@bentallkennedy.com">gpeirson@bentallkennedy.com</a>
-                     <br>*Sales Representative</p>
+                    <p class="directory_content"><strong>Paul Ceresne</strong> 
+                    <br>Director of Leasing*
+                    <br>(905) 271-5096
+                    <br><a href="mailto:pceresne@bentallkennedy.com">pceresne@bentallkennedy.com</a>
+                    <br>*Sales Representative</p>
                     </script>
                 </div>
             </div>
@@ -97,16 +97,16 @@
                     <p class="directory_content">{{address1}}</p>
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                     <br>
-                    <p class="directory_content"><strong>Celeste Nickle</strong> 
+                   <p class="directory_content"><strong>Jeff Wilson</strong> 
                     <br>General Manager
-                    <br>(519) 641-0976 ext. 222
-                    <br><a href="mailto:CNickle@Bentallkennedy.com">CNickle@Bentallkennedy.com</a></p>
+                    <br>(519) 681-0434 ext. 1805
+                    <br><a href="mailto:jwilson@bentallkennedy.com">jwilson@bentallkennedy.com</a></p>
                     <br>
-                     <p class="directory_content"><strong>Garnet Peirson</strong> 
-                    <br>Director, Leasing*
-                    <br>1.866.681.2715
-                    <br><a href="mailto:gpeirson@bentallkennedy.com">gpeirson@bentallkennedy.com</a>
-                     <br>*Sales Representative</p>
+                    <p class="directory_content"><strong>Paul Ceresne</strong> 
+                    <br>Director of Leasing*
+                    <br>(905) 271-5096
+                    <br><a href="mailto:pceresne@bentallkennedy.com">pceresne@bentallkennedy.com</a>
+                    <br>*Sales Representative</p>
                 </script>
             </div>
             
