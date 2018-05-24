@@ -204,7 +204,7 @@
             color:#999999 !important;
         }
         .site-map-section a:hover {}
-        #footer_teasers_wrapper .footer_teaser p a {
+        #footer_teasers_wrapper .footer_teaser p a, #footer_teasers_wrapper .footer_teaser p a:HOVER {
             color: #ccc;
         }
         .copyright {
