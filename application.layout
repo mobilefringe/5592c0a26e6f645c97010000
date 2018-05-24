@@ -116,13 +116,13 @@
             color: #999 !important;
         }
         /*hyperlinks*/
-        a{
-            color:#999999;
-            text-decoration:inherit;
+        a {
+            color: #545454;
+            text-decoration: inherit;
         }
         /*hyperlink hover color*/
-        a:hover{
-            color:#999999 !important;
+        a:hover {
+            color: #545454 !important;
         }
         body{
             background:white;
