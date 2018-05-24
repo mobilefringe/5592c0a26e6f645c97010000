@@ -25,18 +25,6 @@
                 </div>
                 <br>
                 <div id="mm_page_content_mobile"></div>
-                <!--    <p class="directory_content"><strong>Jeff Wilson</strong> -->
-                <!--    <br>General Manager-->
-                <!--    <br>(519) 681-0434 ext. 1805-->
-                <!--    <br><a href="mailto:jwilson@bentallkennedy.com">jwilson@bentallkennedy.com</a></p>-->
-                <!--    <br>-->
-                <!--    <p class="directory_content"><strong>Paul Ceresne</strong> -->
-                <!--    <br>Director of Leasing*-->
-                <!--    <br>(905) 271-5096-->
-                <!--    <br><a href="mailto:pceresne@bentallkennedy.com">pceresne@bentallkennedy.com</a>-->
-                <!--    <br>*Sales Representative</p>-->
-                <!--    </script>-->
-                <!--</div>-->
             </div>
             <div id="send_contact_success" class="alert alert-success" role="alert" style="display:none">
                 <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
@@ -101,20 +89,6 @@
             </div>
             <br>
             <div id="mm_page_content"></div>
-            <!--       <p class="directory_content"><strong>Jeff Wilson</strong> -->
-            <!--        <br>General Manager-->
-            <!--        <br>(519) 681-0434 ext. 1805-->
-            <!--        <br><a href="mailto:jwilson@bentallkennedy.com">jwilson@bentallkennedy.com</a></p>-->
-            <!--        <br>-->
-            <!--        <p class="directory_content"><strong>Paul Ceresne</strong> -->
-            <!--        <br>Director of Leasing*-->
-            <!--        <br>(905) 271-5096-->
-            <!--        <br><a href="mailto:pceresne@bentallkennedy.com">pceresne@bentallkennedy.com</a>-->
-            <!--        <br>*Sales Representative</p>-->
-            <!--    </script>-->
-            <!--</div>-->
-            
-            
         </div>
     </div>
 </div>
