@@ -205,7 +205,7 @@
         }
         .site-map-section a:hover {}
         #footer_teasers_wrapper .footer_teaser p a, #footer_teasers_wrapper .footer_teaser p a:hover {
-            color: #ccc;
+            color: #ccc !important;
         }
         .copyright {
             background-color: rgb(0, 0, 0);
