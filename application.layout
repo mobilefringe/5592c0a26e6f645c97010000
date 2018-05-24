@@ -204,9 +204,13 @@
             color:#999999 !important;
         }
         .site-map-section a:hover {}
+        #footer_teasers_wrapper .footer_teaser p a {
+            color: #ccc;
+        }
         .copyright {
             background-color: rgb(0, 0, 0);
         }
+        
         .footer-text, .footer-text a {
             color: #FFF;
         }
