@@ -4,6 +4,9 @@
         text-transform:uppercase;
         font-weight:400 !important;
     }
+    .site_welcome_msg {
+        text-transform: uppercase;
+    }
     .feature_title{
         text-align:left;
     }
