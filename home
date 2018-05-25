@@ -1,8 +1,6 @@
 <style>
     h3 {
         margin-top:0 !important;
-        text-transform:uppercase;
-        font-weight:400 !important;
     }
     .site_welcome_msg {
         text-transform: uppercase;
