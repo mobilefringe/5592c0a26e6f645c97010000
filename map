@@ -89,7 +89,7 @@
             <button class="zoom-out"><span class="glyphicon glyphicon-minus"></span></button>
         </div>
         <div id="map" class="panzoom-elements" style="">
-            <img src="" alt="Hyland Center Map">
+            <img src="" alt="Hyland Center Map" />
         </div>
         <div id="zoom_container">
             <img id="png_map" class="png_map" src="" alt="Hyland Center Map"  width="2240" height="943" />
