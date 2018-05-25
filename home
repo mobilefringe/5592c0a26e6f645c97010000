@@ -1,5 +1,5 @@
 <style scoped>
-    h3 {
+    h2 {
         margin-top:0 !important;
         text-transform:uppercase;
         font-weight:400 !important;
@@ -26,8 +26,12 @@
 </br>
 <section class="call_to_action" id="description_section">
     <script id="description_template" type="x-tmpl-mustache/text">
-        <h3 class="site_welcome_msg">{{welcome_message}}</h3>
-        <h4 class="site_description">{{description}}</h4>
+        {{#welcome_message}}
+        <h2 class="site_welcome_msg">{{welcome_message}}</h3>
+        {{/welcome_message}}
+        {{#description}}
+        <h3 class="site_description">{{description}}</h4>
+        {{/description}}
     </script>
 </section>
 <div class="main">
