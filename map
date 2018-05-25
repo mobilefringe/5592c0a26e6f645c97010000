@@ -110,7 +110,7 @@
             var maptype = "png"
             renderMap(maptype);
             $(".zoom-in").append('<p style="display: none;">Zoom In</p>');
-           	 	$(".zoom-out").append('<p style="display: none;">Zoom Out</p>');
+       	 	$(".zoom-out").append('<p style="display: none;">Zoom Out</p>');
 
         }
         
