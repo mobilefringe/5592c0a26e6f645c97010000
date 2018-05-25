@@ -15,7 +15,6 @@
     <div class="inside_page_content">
         <div class="left_column">
             <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.669606244508!2d-81.2873031842882!3d43.02734100069159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882eee5a98b8e867%3A0xfa2b087b898d0f89!2sHylands+Centre!5e0!3m2!1sen!2sca!4v1527260527234" width="600" height="450" frameborder="0" style="border:0" allowfullscreen  title="Map"></iframe>
-            <!--<iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.6462570186054!2d-81.2853204!3d43.0278324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882eee507390dd41%3A0x15c548df64e4508e!2s1737+Richmond+St%2C+Hylands+Centre%2C+London%2C+ON+N5X+3Y2!5e0!3m2!1sen!2sca!4v1435874888467" style="border:0" title="Map">Directions</iframe>-->
         </div>
         <div class="right_column">
             <p class="right_column_header">centre information</p>
