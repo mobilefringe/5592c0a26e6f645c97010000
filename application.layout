@@ -241,8 +241,8 @@
                         <li><a href="#" onclick="javascript:toggle_submenu('contact_dd');">Contact Us <span class="caret"></span></a>
                             <div id="contact_dd" class="submenu" style="display:none">
                                 <ul>
-                                    <li><a href="/contact_us">Contact Us</a></li>
-                                    <li><a href="/about_us">About Us</a></li>
+                                    <!--<li><a href="/contact_us">Contact Us</a></li>-->
+                                    <!--<li><a href="/about_us">About Us</a></li>-->
                                     <li><a href="/jobs">Jobs</a></li>
                                    
                                 </ul>    
@@ -266,8 +266,8 @@
                           <li id="findus_link"><a href="/find_us">Find Us</a></li>
                          <li id="contact_link" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle">contact us <span class="caret"></span></a>
                              <ul class="dropdown-menu">
-                                <li><a href="/contact_us">Contact Us</a></li>
-                                <li><a href="/about_us">About Us</a></li>
+                                <!--<li><a href="/contact_us">Contact Us</a></li>-->
+                                <!--<li><a href="/about_us">About Us</a></li>-->
                                 <li><a href="/jobs">Jobs</a></li>
                                 
                             </ul> 
@@ -404,9 +404,9 @@
                      <li>
                         <a href="/find_us">Find Us</a>
                     </li>
-                    <li>
-                        <a href="/contact_us">contact Us</a>
-                    </li>
+                    <!--<li>-->
+                    <!--    <a href="/contact_us">contact Us</a>-->
+                    <!--</li>-->
                 </ul>
             </div>
         </section>
